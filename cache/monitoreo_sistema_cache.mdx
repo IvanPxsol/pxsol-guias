@@ -1,0 +1,33 @@
+Título: Monitor del Sistema de Caché
+
+Descripción: Esta funcionalidad permite monitorear y analizar el estado del sistema de caché para los hoteles. Facilita la verificación de la cobertura de datos, la comparación entre la información almacenada en caché y la información en tiempo real (live), y la ejecución de reinicios de caché para hoteles específicos. Adicionalmente, ofrece una herramienta para simular búsquedas del motor de reservas y detectar discrepancias.
+
+Subtítulo 1: Búsqueda y Análisis de Hoteles
+
+Para comenzar, navegue al menú lateral izquierdo y, dentro de la sección "Interno", seleccione la opción "Monitor de Sistema de Caché". Esta acción cargará la interfaz principal de la herramienta, posicionándolo por defecto en la pestaña "Búsqueda de hoteles".  [Menú lateral con la opción "Monitor de Sistema de..." seleccionada.](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175382_0_68dae2d6be279.jpg)
+
+
+En la pestaña "Coordenadas", ingrese el nombre de una ciudad o ubicación específica en el campo "Ubicación". A medida que escribe, el sistema mostrará una lista de sugerencias; seleccione la opción deseada. Al hacerlo, los campos de "Latitud" y "Longitud" se completarán automáticamente. Finalmente, presione el botón "Buscar" para iniciar la consulta.  [Campo de ubicación con "Buenos Aires" seleccionado en el mapa.](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175383_1_68dae2d752056.jpg)
+
+
+Una vez finalizada la búsqueda, se mostrará una sección de resumen con varias métricas clave. Podrá visualizar el "Total hoteles" encontrados en la ubicación, la "Cobertura promedio" del caché para esos hoteles, el número de "Hoteles indexados" (aquellos con datos en el caché) y la cantidad de "Hoteles sin datos de cobertura".  [Tarjetas de resumen con métricas como "Total hoteles" y "Cobertura promedio".](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175383_2_68dae2d782124.jpg)
+
+
+En la tabla "Gestión de hoteles", localice el hotel que desea analizar. Diríjase a la columna "Acciones" correspondiente a esa fila y haga clic para desplegar un menú. Seleccione la opción "Ver detalles" para acceder a la pantalla de análisis de cobertura individual para ese hotel.  [Menú desplegable "Acciones" con la opción "Ver detalles" visible.](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175383_3_68dae2d7e1aff.jpg)
+
+
+En la pantalla de "Análisis de cobertura", configure los parámetros para la consulta. Establezca una "Fecha de inicio" y la "Cantidad de noches" que desea verificar (entre 10 y 15). Tras configurar estos datos, haga clic en el botón "Analizar cobertura" para comparar los datos del caché con los datos en tiempo real para el período seleccionado.  [Pantalla de análisis de cobertura con el botón "Analizar cobertura" presionado.](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175384_4_68dae2d817e39.jpg)
+
+
+Si el análisis revela discrepancias entre la tarifa o disponibilidad del caché y la información en vivo, puede forzar una actualización. Haga clic en el botón "Reiniciar caché". El sistema iniciará un proceso para actualizar los datos del hotel seleccionado. Una vez completado, la tabla de "Resultados detallados" se actualizará, mostrando que la información del caché ahora coincide con la información en vivo.  [Botón "Reiniciar caché" siendo presionado, con un mensaje "Reiniciando caché..."](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175384_5_68dae2d84bd5e.jpg)
+
+
+Subtítulo 2: Simulación de Búsqueda con el Motor de Reservas
+
+Desde la pantalla principal del monitor, seleccione la pestaña "Demo Motor". Esta sección permite simular una búsqueda de hoteles tal como la realizaría el motor de reservas, utilizando los datos del sistema de caché.  [Pestaña "Demo Motor" seleccionada en la parte superior de la pantalla.](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175384_6_68dae2d8a8ad2.jpg)
+
+
+Configure los parámetros para la simulación. Seleccione el "Entorno", la "API Key" del motor a probar, una "Fecha de inicio" y una "Fecha de fin" para la estancia. A continuación, ingrese una "Ubicación" y un "Radio de búsqueda". Al completar estos campos, se generará una URL de consulta en la parte inferior.  [Formulario del Demo Motor con campos como API Key, fechas y ubicación de Córdoba.](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175385_7_68dae2d91ea71.jpg)
+
+
+Haga clic en el botón "Buscar" para ejecutar la simulación. El sistema mostrará un resumen que incluye el total de hoteles, los hoteles testeados, la precisión de la disponibilidad y, más importante, la cantidad de "Discrepancias". Debajo, la tabla "Discrepancias de disponibilidad" listará específicamente qué hoteles presentan diferencias entre la disponibilidad en caché y la disponibilidad en vivo. Realizar esta búsqueda también sirve para actualizar el caché de los hoteles consultados.  [Resultados de la simulación mostrando tarjetas de resumen y una tabla de "Discrepancias de disponibilidad".](https://files-public-web.s3-us-west-2.amazonaws.com/1978/video_screenshots/2025/09/29/screenshot_1759175385_8_68dae2d959fb7.jpg)
