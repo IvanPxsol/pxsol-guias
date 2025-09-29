@@ -47,7 +47,9 @@
           },
           {
             "group": "Cache",
-            "pages": []
+            "pages": [
+              "cache/monitoreo_sistema_cache"
+            ]
           }
         ]
       },
