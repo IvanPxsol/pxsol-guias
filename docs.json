@@ -44,14 +44,6 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
-          },
-          {
-            "group": "Cache",
-            "pages": []
-          },
-          {
-            "group": "Correos",
-            "pages": []
           }
         ]
       },
