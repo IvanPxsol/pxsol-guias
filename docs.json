@@ -44,18 +44,6 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
-          },
-          {
-            "group": "Prueba",
-            "pages": []
-          },
-          {
-            "group": "Prueba1",
-            "pages": []
-          },
-          {
-            "group": "Prueba2",
-            "pages": []
           }
         ]
       },
