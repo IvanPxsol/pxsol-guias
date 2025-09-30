@@ -51,7 +51,9 @@
           },
           {
             "group": "Correos",
-            "pages": []
+            "pages": [
+              "correos/enviar_correo"
+            ]
           }
         ]
       },
