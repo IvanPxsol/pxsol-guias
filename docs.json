@@ -19,16 +19,6 @@
               "essentials/settings",
               "essentials/navigation"
             ]
-          },
-          {
-            "group": "Prueba",
-            "pages": []
-          },
-          {
-            "group": "Prueba Mail ",
-            "pages": [
-              "inbox/conectar_cuenta_correo"
-            ]
           }
         ]
       },
