@@ -14,12 +14,6 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Inbox",
-            "pages": [
-              "inbox/conectar_cuenta_correo"
-            ]
-          },
-          {
             "group": "Prueba",
             "pages": []
           }
