@@ -47,7 +47,9 @@
           },
           {
             "group": "Inbox",
-            "pages": []
+            "pages": [
+              "inbox/conectar_cuenta_correo"
+            ]
           },
           {
             "group": "Prueba",
