@@ -14,6 +14,13 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
             "group": "Prueba",
             "pages": []
           },
