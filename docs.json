@@ -19,7 +19,9 @@
           },
           {
             "group": "Prueba Mail ",
-            "pages": []
+            "pages": [
+              "inbox/conectar_cuenta_correo"
+            ]
           }
         ]
       },
