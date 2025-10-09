@@ -35,7 +35,7 @@
             "pages": []
           },
           {
-            "group": "Configuracion Inicial",
+            "group": "Configuración inicial",
             "pages": [
               "configuracion_inicial/como_modificar_el_pin_de_un_usuario"
             ]
