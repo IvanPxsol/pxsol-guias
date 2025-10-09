@@ -37,6 +37,10 @@
           {
             "group": "Categoria_prueba",
             "pages": []
+          },
+          {
+            "group": "ConfiguracióN Inicial",
+            "pages": []
           }
         ]
       },
