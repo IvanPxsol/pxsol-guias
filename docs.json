@@ -33,6 +33,10 @@
           {
             "group": "Primeros Pasos",
             "pages": []
+          },
+          {
+            "group": "Configuracion Inicial",
+            "pages": []
           }
         ]
       },
