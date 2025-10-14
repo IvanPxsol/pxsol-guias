@@ -39,12 +39,7 @@
             "pages": [
               "configuracion_inicial/como_modificar_el_pin_de_un_usuario"
             ]
-          },
-          {
-            "group": "Prueba Categoria",
-            "pages": []
-          }
-        ]
+          }        ]
       },
       {
         "tab": "API reference",
