@@ -36,6 +36,10 @@
             "pages": [
               "configuracion_inicial/como_modificar_el_pin_de_un_usuario"
             ]
+          },
+          {
+            "group": "Habitaciones",
+            "pages": []
           }
         ]
       },
