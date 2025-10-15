@@ -47,7 +47,9 @@
           },
           {
             "group": "Categoria Prueba1",
-            "pages": []
+            "pages": [
+              "categoria_prueba1/informes_y_paneles"
+            ]
           },
           {
             "group": "Categoria Prueba25",
