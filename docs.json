@@ -40,6 +40,10 @@
           {
             "group": "Habitaciones",
             "pages": []
+          },
+          {
+            "group": "Prueba Categoria",
+            "pages": []
           }
         ]
       },
