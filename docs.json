@@ -58,6 +58,10 @@
           {
             "group": "Prueba1",
             "pages": []
+          },
+          {
+            "group": "Categoria Prueba2",
+            "pages": []
           }
         ]
       },
