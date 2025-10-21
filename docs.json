@@ -65,7 +65,9 @@
           },
           {
             "group": "Categoria Prueba",
-            "pages": []
+            "pages": [
+              "categoria_prueba/conectar_cuenta_correo"
+            ]
           },
           {
             "group": "Prueba Categoria Probando1",
