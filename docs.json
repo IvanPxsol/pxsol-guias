@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Guias",
+  "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,6 +14,14 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development "
+            ]
+          },
+          {
             "group": "Customization",
             "pages": [
               "essentials/settings",
@@ -21,54 +29,24 @@
             ]
           },
           {
-            "group": "Correos",
+            "group": "Writing content",
             "pages": [
-              "correos/conectar_cuenta_correo",
-              "correos/configurar_tipo_habitaciones"
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
             ]
           },
           {
-            "group": "Primeros Pasos",
-            "pages": []
-          },
-          {
-            "group": "Configuración inicial",
+            "group": "AI tools",
             "pages": [
-              "configuracion_inicial/como_modificar_el_pin_de_un_usuario"
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
             ]
           },
           {
-            "group": "Habitaciones",
-            "pages": []
-          },
-          {
-            "group": "Prueba Categoria",
-            "pages": []
-          },
-          {
-            "group": "Categoria Prueba1",
-            "pages": [
-              "categoria_prueba1/informes_y_paneles"
-            ]
-          },
-          {
-            "group": "Categoria Prueba25",
-            "pages": []
-          },
-          {
-            "group": "Categoria Prueba3",
-            "pages": []
-          },
-          {
-            "group": "Prueba Categoria Prueba",
-            "pages": []
-          },
-          {
-            "group": "Categoria Prueba",
-            "pages": []
-          },
-          {
-            "group": "Prueba Categoria Probando1",
+            "group": "Categoria Prueba Mithras",
             "pages": []
           }
         ]
