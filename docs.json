@@ -66,6 +66,10 @@
           {
             "group": "Categoria Prueba",
             "pages": []
+          },
+          {
+            "group": "Prueba Categoria Probando1",
+            "pages": []
           }
         ]
       },
