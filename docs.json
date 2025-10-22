@@ -56,14 +56,6 @@
             "pages": []
           },
           {
-            "group": "Categoria Prueba3",
-            "pages": []
-          },
-          {
-            "group": "Prueba Categoria Prueba",
-            "pages": []
-          },
-          {
             "group": "Categoria Prueba",
             "pages": [
               "categoria_prueba/conectar_cuenta_correo"
