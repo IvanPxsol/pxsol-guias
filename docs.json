@@ -14,6 +14,14 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "Getting started ",
+            "pages": [
+              "index",
+              "quickstart",
+              "development "
+            ]
+          },
+          {
             "group": "Customization",
             "pages": [
               "essentials/settings",
@@ -21,48 +29,28 @@
             ]
           },
           {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "AI tools",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          },
+          {
             "group": "Correos",
-            "pages": [
-              "correos/conectar_cuenta_correo",
-              "correos/configurar_tipo_habitaciones"
-            ]
-          },
-          {
-            "group": "Primeros Pasos",
-            "pages": []
-          },
-          {
-            "group": "Configuración inicial",
-            "pages": [
-              "configuracion_inicial/como_modificar_el_pin_de_un_usuario"
-            ]
-          },
-          {
-            "group": "Habitaciones",
-            "pages": []
-          },
-          {
-            "group": "Prueba Categoria",
-            "pages": []
-          },
-          {
-            "group": "Categoria Prueba1",
-            "pages": [
-              "categoria_prueba1/informes_y_paneles"
-            ]
-          },
-          {
-            "group": "Categoria Prueba25",
             "pages": []
           },
           {
             "group": "Categoria Prueba",
-            "pages": [
-              "categoria_prueba/conectar_cuenta_correo"
-            ]
-          },
-          {
-            "group": "Prueba Categoria Probando1",
             "pages": []
           }
         ]
@@ -77,7 +65,7 @@
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Endpoint",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
