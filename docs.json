@@ -50,12 +50,10 @@
             "pages": []
           },
           {
-            "group": "Prueba Categoria",
-            "pages": []
-          },
-          {
-            "group": "Habitaciones",
-            "pages": []
+            "group": "Categoria Prueba Dos",
+            "pages": [
+              "categoria_prueba/conectar_cuenta_correo"
+            ]
           }
         ]
       },
