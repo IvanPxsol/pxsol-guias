@@ -41,7 +41,8 @@
             "group": "AI tools",
             "pages": [
               "ai-tools/cursor",
-              "ai-tools/claude-code"
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
               
             ]
           },
@@ -52,8 +53,7 @@
           {
             "group": "Categoria Prueba Dos",
             "pages": [
-              "categoria_prueba/conectar_cuenta_correo",
-              "ai-tools/windsurf"
+              "categoria_prueba/conectar_cuenta_correo"
             ]
           }
         ]
